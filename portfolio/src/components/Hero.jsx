@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, GitBranch, Mail, CodeIcon, FileSpreadsheet } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import CodeCard from "./CodeCard";
 import { profile } from "../data/content";
 
@@ -71,8 +71,6 @@ export default function Hero() {
               {[
                 { Icon: Github, href: profile.socials.github },
                 { Icon: Linkedin, href: profile.socials.linkedin },
-                { Icon: FileSpreadsheet, href: profile.resumeUrl },
-                { Icon: CodeIcon, href: profile.codeProfile },
                 { Icon: Mail, href: `mailto:${profile.email}` },
               ].map(({ Icon, href }, i) => (
                 <a
