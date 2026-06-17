@@ -28,7 +28,7 @@ export default function Contact() {
             href={`mailto:${profile.email}`}
             className="inline-flex items-center gap-2 bg-ink text-paper font-mono font-medium px-7 py-4 rounded-full hover:bg-ink-soft transition-colors text-lg"
           >
-            {profile.email}
+            {"Email now"}
             <ArrowUpRight size={20} />
           </a>
 
