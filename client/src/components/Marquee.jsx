@@ -6,7 +6,7 @@ export default function Marquee() {
   return (
     <div className="relative -rotate-1 my-2">
       <div className="bg-coral py-4 overflow-hidden">
-        <div className="flex gap-8 animate-marquee whitespace-nowrap">
+        <div className="flex gap-8 animate-[marquee_10s_linear_infinite] whitespace-nowrap">
           {doubled.map((skill, i) => (
             <span
               key={i}
