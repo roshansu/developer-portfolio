@@ -13,6 +13,7 @@ function ProjectCard({ project, index }) {
   const offset = index % 2 === 1 ? "md:translate-y-8" : "";
 
   return (
+    <a href={project.link}>
     <motion.div
       initial={{ opacity: 0, y: 40, rotate: index % 2 === 0 ? -2 : 2 }}
       whileInView={{ opacity: 1, y: 0, rotate: 0 }}
@@ -62,6 +63,7 @@ function ProjectCard({ project, index }) {
         </a>
       </div>
     </motion.div>
+    </a>
   );
 }
 
