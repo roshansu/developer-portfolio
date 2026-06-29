@@ -63,7 +63,7 @@ export const projects = [
     `Build a platform that allows users to report crimes and suspicious activities in their area. The platform focuses on maintaining community safety by enabling users to quickly share incidents and allowing moderators to verify the authenticity of reports.`,
     tags: ["React", "Node.js", "MongoDB"],
     color: "yolk",
-    link: "https://crime-alert-two.vercel.app/",
+    link: "https://crime-reports.vercel.app/",
     repo: "http://github.com/roshansu/crime-report",
   },
   {
